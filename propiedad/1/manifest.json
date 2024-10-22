@@ -1,0 +1,21 @@
+{
+    "name": "Propiedad en Pinares de San Martín",
+    "short_name": "",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "description": "Las mejores propiedades, a los mejores precios",
+    "icons": [
+        {
+            "src": "img/1.jpg",
+            "sizes": "192x192",
+            "type": "image/jpg"
+        },
+        {
+            "src": "img/1.jpg",
+            "sizes": "512x512",
+            "type": "image/jpg"
+        }
+    ]
+}

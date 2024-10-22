@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedad en Pinares de
+San Martín</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="manifest" href="/propiedad/1/manifest.json">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            padding-bottom: 50px;
+        }
+
+        h3, h4 {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        /* Carrusel de imágenes */
+        .carousel {
+            margin-top: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .carousel img {
+    width: 100%;
+    height: 500px; /* Ajusta la altura que necesites */
+    object-fit: cover; /* Hace que la imagen se recorte si es necesario */
+    border-radius: 10px;
+}
+
+        /* Tabla de información */
+        .table {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            background-color: #fff;
+            margin-top: 30px;
+            padding: 20px;
+        }
+
+        .table th,
+        .table td {
+            vertical-align: middle;
+            padding: 12px;
+            font-size: 16px;
+        }
+
+        .table th {
+            background-color: #ecf0f1;
+            color: #2980b9;
+        }
+
+        .icon {
+            margin-right: 8px;
+            color: #2980b9;
+        }
+
+        .video-panel {
+            margin-top: 30px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Botón de WhatsApp */
+        .btn-whatsapp {
+            background-color: #25d366;
+            color: white;
+            font-size: 18px;
+            padding: 12px 25px;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            margin-top: 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-whatsapp:hover {
+            background-color: #1ebe57;
+            text-decoration: none;
+        }
+
+        .btn-whatsapp i {
+            margin-right: 10px;
+        }
+
+        /* Responsividad */
+        @media (max-width: 768px) {
+            .btn-whatsapp {
+                justify-content: center;
+                width: 100%;
+            }
+
+            .table {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Carrusel de imágenes -->
+    <div class="container">
+        <div id="propertyCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+<div class="carousel-item active">
+    <img src="/propiedad/1/img/1.jpg" alt="Image 1">
+</div>
+<div class="carousel-item ">
+    <img src="/propiedad/1/img/2.jpg" alt="Image 2">
+</div>
+<div class="carousel-item ">
+    <img src="/propiedad/1/img/3.jpg" alt="Image 3">
+</div>
+<div class="carousel-item ">
+    <img src="/propiedad/1/img/4.jpg" alt="Image 4">
+</div>
+<div class="carousel-item ">
+    <img src="/propiedad/1/img/5.jpg" alt="Image 5">
+</div>
+<div class="carousel-item ">
+    <img src="/propiedad/1/img/6.jpg" alt="Image 6">
+</div>
+<div class="carousel-item ">
+    <img src="/propiedad/1/img/7.jpg" alt="Image 7">
+</div>
+<div class="carousel-item ">
+    <img src="/propiedad/1/img/8.jpg" alt="Image 8">
+</div>
+<div class="carousel-item ">
+    <img src="/propiedad/1/img/9.jpg" alt="Image 9">
+</div>
+<div class="carousel-item ">
+    <img src="/propiedad/1/img/10.jpg" alt="Image 10">
+</div>
+<div class="carousel-item ">
+    <img src="/propiedad/1/img/11.jpg" alt="Image 11">
+</div>
+<div class="carousel-item ">
+    <img src="/propiedad/1/img/12.jpg" alt="Image 12">
+</div>
+<div class="carousel-item ">
+    <img src="/propiedad/1/img/13.jpg" alt="Image 13">
+</div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#propertyCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#propertyCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Información de Propiedad en Tabla -->
+        <h3 class="mt-4">Información de la Propiedad</h3>
+        <table class="table table-striped table-bordered">
+            <tbody>
+                <tr>
+                    <th><i class="fas fa-restroom icon"></i>Baños:</th>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th><i class="fas fa-bed icon"></i>Habitaciones:</th>
+                    <td>4 Habitaciones</td>
+                </tr>
+                <tr>
+                    <th><i class="fas fa-map-marker-alt icon"></i>Ubicación:</th>
+                    <td>Pinares de
+San Martín</td>
+                </tr>
+                <tr>
+                    <th><i class="fas fa-car icon"></i>Parqueaderos</th>
+                    <td>2 parqueaderos cubiertos</td>
+                </tr>
+                
+                <tr>
+                    <th><i class="fas fa-ruler icon"></i>Área:</th>
+                    <td>131 m²</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Panel para videos -->
+        <div class="video-panel">
+            <h4>Video de la Propiedad</h4>
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4" title="Video de YouTube" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- Botón de WhatsApp -->
+        <a id="whatsapp-button" class="btn-whatsapp" target="_blank">
+    <i class="fab fa-whatsapp"></i> Más Información
+</a>
+</div>
+<script>
+    // Función para crear el enlace de WhatsApp
+    function createWhatsAppLink() {
+        const phoneNumber = '573108310558'; // Reemplaza con tu número de WhatsApp
+        const message = `buenas tardes, quisiera más información de esta propiedad: ${window.location.href}`;
+        const encodedMessage = encodeURIComponent(message); // Codifica el mensaje para la URL
+        const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+        document.getElementById('whatsapp-button').href = whatsappLink; // Asigna el enlace al botón
+    }
+
+    // Llama a la función al cargar la página
+    window.onload = createWhatsAppLink;
+</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
